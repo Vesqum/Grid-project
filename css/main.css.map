@@ -1,8 +1,13 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAC;EACN,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,KAAK;CACnB;;AAGD,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,eAAe;EAC5B,WAAW,EAAE,qBAAqB;CACrC",
+    "mappings": "AAIA,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAC;EACN,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,KAAK;EAChB,eAAe,EAAE,MAAM;CAC1B;;AAGD,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,MAAM;EACjB,KAAK,ECrBD,IAAI;EDsBR,gBAAgB,EClBb,OAAO;CDmBb",
     "sources": [
-        "../sass/main.scss"
+        "../sass/main.scss",
+        "../sass/_colors.scss",
+        "../sass/_animations.scss",
+        "../sass/_smal.scss",
+        "../sass/_medium.scss",
+        "../sass/_large.scss"
     ],
     "names": [],
     "file": "main.css"

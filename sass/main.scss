@@ -1,3 +1,7 @@
+@import './colors';
+@import './animations';
+
+
 *,
 *::after,
 *::before {
@@ -8,10 +12,23 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 
 body {
-    font-family: 'Cinzel', serif;
     font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    color: $white;
+    background-color: $dark;
 }
+
+// body {
+//     font-family: 'Cinzel', serif;
+    
+// }
+
+
+@import './smal';
+@import './medium';
+@import './large';
