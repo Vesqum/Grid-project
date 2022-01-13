@@ -1,3 +1,60 @@
-@media (min-width: 562px) {
+@media (min-width: 572px) {
     
+    .info {
+        grid-template-areas: 
+        "title box"
+        "title box"
+        "title box";
+        padding: 10em 2em;
+
+        &__box {
+            display: grid;
+            justify-content: end;
+        }
+
+        &__title {
+            padding: 1em;
+        }
+        &__box-img,
+        &__box-text {
+            max-width: 500px;
+        }
+        &__bg-icon {
+            position: absolute;
+            display: block;
+            opacity: 0.05;
+            z-index: -5;
+
+            &--one {
+                top: 14%;
+                width: 20%;
+                
+                animation: rotate-right 160s infinite linear;
+            }
+            &--two {
+                bottom: 10%;
+                left: 10%;
+                width: 33%;
+                
+                animation: rotate-left 140s infinite linear;
+            }
+
+            &--three {
+                top: 26%;
+                left: 13%;
+                width: 50%;
+                
+                animation: rotate-left 130s infinite linear;
+            }
+
+            &--four {
+                top: 55%;
+                left: -10%;
+                width: 18%;
+                
+                animation: rotate-right 100s infinite linear;
+            }
+        }
+
+    }
 }
